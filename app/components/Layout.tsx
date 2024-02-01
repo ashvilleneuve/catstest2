@@ -31,6 +31,7 @@ export function Layout({
 }: LayoutProps) {
   return (
     <>
+      <div>Hello world!</div>
       <CartAside cart={cart} />
       <SearchAside />
       <MobileMenuAside menu={header?.menu} shop={header?.shop} />
